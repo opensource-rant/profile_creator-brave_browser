@@ -1,0 +1,22 @@
+%{ for i, profile_name in profiles }
+"Profile ${i + 1}": {
+  "active_time": 1644656529.708637,
+  "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
+  "background_apps": false,
+  "default_avatar_fill_color": -8611,
+  "default_avatar_stroke_color": -10663424,
+  "force_signin_profile_locked": false,
+  "gaia_id": "",
+  "is_consented_primary_account": false,
+  "is_ephemeral": false,
+  "is_using_default_avatar": true,
+  "is_using_default_name": false,
+  "managed_user_id": "",
+  "metrics_bucket_index": 2,
+  "name": "${profile_name}",
+  "profile_highlight_color": -8611,
+  "signin.with_credential_provider": false,
+  "user_name": ""
+}
+%{ endfor ~}
+
