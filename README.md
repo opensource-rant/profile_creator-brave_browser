@@ -13,4 +13,8 @@ terraform plan -var profiles=["work, "study"]
 
 #### TODO
 
-A lot of testing...
+Install the config in the appropriate directory for each operating system
+
++a lot of testing...
+
+
